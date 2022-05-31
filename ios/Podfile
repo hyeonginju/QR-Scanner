@@ -14,6 +14,8 @@ target 'react_native_scanner' do
 
   pod 'TextToSpeech', :path => '../node_modules/react-native-tts'
 
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
   target 'react_native_scannerTests' do
     inherit! :complete
     # Pods for testing
