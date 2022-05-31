@@ -6,6 +6,7 @@ const Home = ({navigation}) => {
   return (
     <SafeAreaView style={styles.bigContainer}>
       <View style={styles.container}>
+        {/* 홈화면에 setting 필요할 시  */}
         {/* <TouchableOpacity
           style={styles.topContainer}
           onPress={() => navigation.navigate('Setting')}>

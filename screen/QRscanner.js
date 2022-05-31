@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import {RNCamera} from 'react-native-camera';
 import Tts from 'react-native-tts';
