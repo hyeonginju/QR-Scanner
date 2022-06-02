@@ -3,8 +3,10 @@ import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 
 const Setting = ({navigation}) => {
+  // 음성출력 on/off를 위한 상태관리
   const [tts, setTts] = useState('On');
 
+  //음성출력 on/off 기능
   const OnOffTts = () => {
     if (tts == 'On') {
       setTts('Off');
@@ -42,7 +44,7 @@ const Setting = ({navigation}) => {
         <TouchableOpacity
           style={styles.btn}
           onPress={() => navigation.navigate('QRscanner', {onoff: tts})}>
-          <Text style={styles.btnText}>END</Text>
+          <Text style={styles.btnText}>BACK</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

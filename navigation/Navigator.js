@@ -11,7 +11,7 @@ const Navigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Eye Share Net"
+          name="Home"
           component={Home}
           options={{headerShown: false}}></Stack.Screen>
         <Stack.Screen
