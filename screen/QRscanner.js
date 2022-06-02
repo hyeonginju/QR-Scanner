@@ -29,7 +29,7 @@ const QRscanner = ({navigation, route}) => {
       QRcode.data.startsWith('eyesharenet') &&
       tts == 'On'
     ) {
-      // 진행중이던 음숭출력을 멈추고 새로운 입력값 음성출력
+      // 진행중이던 음성출력을 멈추고 새로운 입력값 음성출력
       Tts.stop();
       Tts.speak(QRcode.data);
     }
