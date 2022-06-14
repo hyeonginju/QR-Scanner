@@ -24,11 +24,7 @@ const QRscanner = ({navigation, route}) => {
   // QR 입력값이 초기값이 아니고 타입이 QR code일 떄
   if (QRcode != null && QRcode.type == 'QR_CODE') {
     // 입력값이 중복이 아니고, 특정 값으로 시작하며, 음성출력 기능이 on 일 때
-    if (
-      tmp != QRcode.data &&
-      QRcode.data.startsWith('eyesharenet') &&
-      tts == 'On'
-    ) {
+    if (tmp != QRcode.data && QRcode.data.startsWith('전방에') && tts == 'On') {
       // 진행중이던 음성출력을 멈추고 새로운 입력값 음성출력
       Tts.stop();
       Tts.speak(QRcode.data);
