@@ -19,10 +19,10 @@ const Home = ({navigation}) => {
           <Text style={styles.baseText}>음성 안내 서비스</Text>
           <Text style={styles.smallText}>Ver 1.0</Text>
 
-          <Text style={styles.bottomText}>(주) 아이쉐어넷</Text>
-          <Text style={styles.bottomText}>www.eyesharenet.org</Text>
+          <Text style={styles.bottomText}>Moco Moco</Text>
+          <Text style={styles.bottomText}>F.E Dev</Text>
           <Text style={styles.bottomText}>서비스 문의</Text>
-          <Text style={styles.bottomText}>064)-725-2046</Text>
+          <Text style={styles.bottomText}>guddls654@gmail.com</Text>
         </View>
         <View style={styles.startBox}>
           <TouchableOpacity
